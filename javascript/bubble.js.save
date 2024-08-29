@@ -1,0 +1,16 @@
+function bubble(let ar){
+	for(let i=0;i<ar.length;i++){
+		for(let j=0;j<ar.length;j++){
+			if(ar[i]<ar[j]){
+			let temp=ar[i];
+			   ar[i]=ar[j];
+			   ar[j]=temp;
+			}
+		}
+	}
+}
+let arr[8,7,6,5,4,1,2];
+	bubble(arr);
+	for(let i=0;arr.length;i++){
+		console.log(arr[]);
+	}
